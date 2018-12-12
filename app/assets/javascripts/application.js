@@ -16,3 +16,10 @@
 //= require turbolinks
 //= require semantic-ui
 //= require_tree .
+
+// We want to wait for turbolinks to load before enabling UI functionality
+$(document).on('turbolinks:load', function() {
+    $('.ui.dropdown')
+        .dropdown()
+    ;
+});

@@ -1,0 +1,10 @@
+<!--By having this partial, Rails knows to render this partial
+    given a code block that we use to display messages in session/index.-->
+
+<div class="event">
+  <div class="content">
+    <div class="summary">
+      <em><%= message.user.username %></em>: <%= message.body %>
+    </div>
+  </div>
+</div>

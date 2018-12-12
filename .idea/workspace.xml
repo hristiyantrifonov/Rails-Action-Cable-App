@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd928b7e-5990-43b9-aa55-310ccd20aafa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/chatroom_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/chatroom_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/messages/_message.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/chatroom/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chatroom/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -32,8 +32,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/chatroom/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/messages/_message.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -61,6 +70,7 @@
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/chatroom_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/messages/_message.html.erb" />
         <option value="$PROJECT_DIR$/app/views/chatroom/index.html.erb" />
       </list>
     </option>
@@ -139,20 +149,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="action-cable-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="action-cable-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="action-cable-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="action-cable-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sessions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="action-cable-app" type="b2602c69:ProjectViewProjectNode" />
@@ -321,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544614043380</updated>
-      <workItem from="1544614044511" duration="9009000" />
+      <workItem from="1544614044511" duration="9280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9009000" />
+    <option name="totallyTimeSpent" value="9280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1179" y="23" width="1381" height="1336" extended-state="0" />
@@ -479,6 +475,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/messages/_message.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/chatroom_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -488,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/chatroom/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

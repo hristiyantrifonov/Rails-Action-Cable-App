@@ -6,7 +6,11 @@ class MessagesController < ApplicationController
     # build method would make the associations by itself
     message = current_user.messages.build(message_params)
     if message.save
-      redirect_to root_path
+      ActionCable.server.broadcast "chatroom_channel", body: message.body,
+                                                       user: message.user.username
+      # Action Cable will send a broadcast to all users subscribed to the "chatroom_channel"
+    else
+      render 'chatroom/index'
     end
   end
 
